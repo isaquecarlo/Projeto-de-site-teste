@@ -1,0 +1,69 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2? family= Bebas+Neue & display=swap');
+
+@import url('https://fonts.googleapis.com/css2? family= Roboto+Mono:ital,wght@1,700 & display=swap');
+
+@import url('https://fonts.googleapis.com/css2? family= Dela+Gothic+One & display=swap');
+
+:root  {
+    --cor00 :#c5ebd6;
+    --cor01: #39c076;
+    --cor02: #3ddc84;
+    --cor03: #2fa866;
+    --cor04: #297c4e ;
+    --cor05: #18422b;
+
+    --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
+    --fonte-destaque: 'Bebas Neue';
+}
+ * {
+     margin:0px;
+     padding: 0px;
+ }
+    
+
+body {
+    background-color:var(--cor00);
+    font-family: var(--fonte-padrao);
+}
+header{
+    background-color:var(--cor04) ;
+}
+
+header > h1 {
+     color:white;
+     font-family: 'Dela Gothic One';
+}
+header > p {
+     color: white; 
+}
+nav {
+    background-color: var(--cor05);
+}
+main {
+    max-height: 1000;    
+    min-height: 280px;
+    margin: auto;
+    background-color: white;
+}
+main h1 {
+    color: var(--cor05);
+    font-family:'Roboto Mono', monospace;
+    
+
+
+}
+main h2 {
+    font-family:'Roboto Mono', monospace;
+
+
+}
+main img {
+    width: 100%;
+}
+
+footer {
+    background-color: var(--cor05);
+    color: white;
+}
